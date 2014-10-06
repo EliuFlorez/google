@@ -1,0 +1,21 @@
+{
+    "name": "eliuflorez/google",
+    "description": "Laravel Authentication Driver for Google OAuth authentication",
+    "keywords": ["laravel", "auth", "authentication", "oauth2", "google", "login"],
+    "authors": [
+        {
+            "name": "eliuflorez",
+            "email": "eliufz@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.4.0",
+		"google/apiclient" : "1.*"
+    },
+    "autoload": {
+        "psr-0": {
+            "Eliuflorez\\Google": "src/"
+        }
+    },
+    "minimum-stability": "dev"
+}
